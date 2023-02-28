@@ -1,7 +1,7 @@
 import React, {useEffect, useMemo, useState} from 'react';
 import styles from './styles.module.scss';
 import dayjs from "dayjs";
-import NumberDisplay from "@/pages/me/components/NumberDisplay";
+import NumberDisplay from "@/components/NumberDisplay";
 // 1. 做一个垂直的 0-9 div
 // 2. 滚动到 7 时，div 就要垂直移动到 7 * height 个单位
 function App() {
