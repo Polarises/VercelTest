@@ -1,12 +1,14 @@
 .numberDisplay {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
   user-select: none;
   text-align: center;
+  width: 100vw;
 }
 
 .digitWrapper {
+
   width: 24px;
   height: 32px;
   line-height: 32px;

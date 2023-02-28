@@ -25,10 +25,11 @@ const NumberDisplay: FC<Props> = (props) => {
                               <span className={styles.digitList} style={{
                                   transform: `translate(-50%, ${-Number(digitStr) * 32}px)`
                               }}>
-                {digits.map(digit => (
-                    <span className={styles.digit} key={digit}>{digit}</span>
-                ))}
-              </span>
+                                {digits.map(digit => (
+                                    <span className={styles.digit} key={digit}>{digit}
+                                    </span>
+                                ))}
+                              </span>
                           ) : (
                               // 展示普通字符
                               <span>{digitStr}</span>

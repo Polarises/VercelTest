@@ -1,5 +1,5 @@
 import React, {useEffect, useMemo, useState} from 'react';
-import styles from './styles.module.scss';
+import styles from './styles/styles.module.scss';
 import dayjs from "dayjs";
 import NumberDisplay from "@/components/NumberDisplay";
 // 1. 做一个垂直的 0-9 div
